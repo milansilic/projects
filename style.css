@@ -15,17 +15,13 @@ body {
 header,
 main,
 footer {
+   display: flex;
+   justify-content: center;
    padding: 2vh 1%;
 }
 
 h1 {
    text-transform: capitalize;
-}
-
-header,
-main {
-   display: flex;
-   justify-content: center;
 }
 
 table,
