@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Cal Sans';
+    src: url('CalSans-SemiBold.eot');
+    src: local('Cal Sans SemiBold'), local('CalSans-SemiBold'),
+        url('CalSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('CalSans-SemiBold.woff2') format('woff2'),
+        url('CalSans-SemiBold.woff') format('woff'),
+        url('CalSans-SemiBold.ttf') format('truetype'),
+        url('CalSans-SemiBold.svg#CalSans-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Leelawadee';
+    src: url('Leelawadee.eot');
+    src: local('Leelawadee'),
+        url('Leelawadee.eot?#iefix') format('embedded-opentype'),
+        url('Leelawadee.woff2') format('woff2'),
+        url('Leelawadee.woff') format('woff'),
+        url('Leelawadee.ttf') format('truetype'),
+        url('Leelawadee.svg#Leelawadee') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Leelawadee';
+    src: url('Leelawadee-Bold.eot');
+    src: local('Leelawadee Bold'), local('Leelawadee-Bold'),
+        url('Leelawadee-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Leelawadee-Bold.woff2') format('woff2'),
+        url('Leelawadee-Bold.woff') format('woff'),
+        url('Leelawadee-Bold.ttf') format('truetype'),
+        url('Leelawadee-Bold.svg#Leelawadee-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

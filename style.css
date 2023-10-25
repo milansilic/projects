@@ -1,0 +1,77 @@
+@import "fonts/fonts.css";
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: 'Cal Sans';
+
+}
+
+body {
+   background-color: #eee;
+}
+
+header,
+main,
+footer {
+   padding: 2vh 1%;
+}
+
+h1 {
+   text-transform: capitalize;
+}
+
+header,
+main {
+   display: flex;
+   justify-content: center;
+}
+
+table,
+th,
+td {
+   border: 1px solid black;
+   border-collapse: collapse;
+}
+
+th {
+   padding: 1vw;
+}
+
+tr:nth-of-type(even) {
+   background-color: #ddd;
+}
+
+tr:nth-of-type(1) {
+   background-color: unset;
+}
+
+td a,
+td p {
+   display: block;
+   padding: 1vw;
+   font-family: 'Leelawadee';
+}
+
+td a {
+   font-weight: bold;
+}
+
+@media screen and (min-width: 1280px) {
+
+   header,
+   main,
+   footer {
+      padding: 2vh 10%;
+   }
+
+   th {
+      padding: 1rem;
+   }
+
+   td a,
+   td p {
+      padding: 1rem;
+   }
+}
