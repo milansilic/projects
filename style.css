@@ -54,12 +54,12 @@ td {
 figure {
    display: flex;
    align-items: center;
-   gap: .6vw;
+   gap: .62vw;
 }
 
 img {
    display: block;
-   width: 2vw;
+   width: 1.927vw;
 }
 
 td a,
